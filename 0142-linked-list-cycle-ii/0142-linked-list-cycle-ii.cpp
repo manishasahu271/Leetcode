@@ -18,7 +18,7 @@ public:
                 while(head!=slow)
                 {head=head->next;
                 slow=slow->next;}
-              return slow;
+              return head;
             }
          }
              return NULL;
